@@ -28,7 +28,9 @@ android {
 }
 
 dependencies {
-    api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    api 'com.baidu.mobstat:mtj-sdk:3.9.1.1'
 }
 
 apply from: '../publish.gradle'
