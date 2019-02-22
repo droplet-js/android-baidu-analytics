@@ -1,5 +1,8 @@
 # android-baidu-analytics
 
+[![Build Status](https://cloud.drone.io/api/badges/v7lin/android-baidu-analytics/status.svg)](https://cloud.drone.io/v7lin/android-baidu-analytics)
+[ ![Download](https://api.bintray.com/packages/v7lin/maven/baidu-analytics-android/images/download.svg) ](https://bintray.com/v7lin/maven/baidu-analytics-android/_latestVersion)
+
 ### snapshot
 
 ````
