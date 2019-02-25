@@ -36,8 +36,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation "androidx.annotation:annotation:${androidxAnnotationVersion}"
-
     if (PUBLISH_TO_JFROG || PUBLISH_TO_JCENTER) {
         implementation "${GROUP_ID}:baidu-analytics-android:${VERSION_NAME}"
     } else {

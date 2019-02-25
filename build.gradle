@@ -112,10 +112,6 @@ subprojects {
 
         // ---
 
-        androidxAnnotationVersion = '1.0.0'
-
-        // ---
-
         junitVersion = '4.12'
 
         runnerVersion = '1.1.0-alpha4'
