@@ -35,6 +35,8 @@ steps:
   commands:
   - ./gradlew :baidu-analytics-android:clean :baidu-analytics-android:install :baidu-analytics-android:artifactoryPublish
   when:
+    branch:
+    - master
     event:
     - push
 
